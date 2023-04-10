@@ -1,4 +1,4 @@
-# Projeto Integrador - Modelo
+# Projeto Integrador - Empréstimo Gerenciamento de uma Loja de Decoração.
 
 Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
 
@@ -6,101 +6,71 @@ Professores: [Marco André Mendes](github.com/marcoandre) e [Alann Perini](https
 
 Links do projeto:
 
--   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
+-   [Documentação (esse documento)](https://github.com/alessandrafr4/fabidecor.git)
 -   [Backend](github.com/marcoandre/pi-backend)
 -   [Frontend](github.com/marcoandre/pi-frontend)
 
-# Como usar esse modelo para o Projeto Integrador
+Alunas: 
+- [Alessandra Fernandes Pereira](link)
+- Bruna Da Rosa Miranda
 
-1. Faça um fork desse repositório para a sua conta do GitHub.
-2. Clone o repositório para o seu computador.
-3. Abra o arquivo README.md no seu editor de texto favorito (recomendamos o [Visual Studio Code](https://code.visualstudio.com/)).
-4. Tenha instalada a extensão [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) no seu editor de texto.
-5. Edite o arquivo README.md com as informações do seu projeto.
+## Introdução
 
-# Desenvolvimento
+Sra. Fabrícia Fernandes, projeta decorações para festa e eventos há 7 anos e descobriu sua paixão atraves da sua primeira decoração na festa de sua sobrinha que fazia seu primeiro ano, ela planejou e fez tudo sozinha com ajuda de algumas inspirações do google. Atualmente ela quer adquirir um sistema porque suas anotações estão perdidas. Ela anota seus compromissos em um caderno, que é um modelo pouco funcional e seguro. Para isso, ela precisa de um sistema que gerencie todos os seus empréstimo, dias disponíveis, orçamento, etc. Mas que isso ocorra de maneira acessivel. Histórico e lembretes também são importantes, mantendo os compromissos e as datas disponíveis sob controle.
 
--   As equipes serão avaliadas por cada etapa da documentação e entregas realizadas.
--   Cada equipe deverá escolher um sistema para o desenvolvimento das atividades, a partir dos modelos apresentados.
 
-# Modelos de Sistemas
+- **Situação-problema:**
 
-**Nessa parte a equipe deve escolher um dos modelos de sistemas para desenvolver o projeto. Ao escolher, escreva uma breve descrição do sistema e o motivo da escolha e pode apagar os outros modelos.**
+Os clientes entram em contato via whatsapp com a Sra. Fabrícia e informa que deseja fazer uma festa ou evento e gostaria de alguém especializado em decoração. Sr fabricia retorna suas mensagens e faz todas suas anotações no seu caderno.
 
-## 1- Ponto de Vendas (PDV)
+O (a) cliente manda fotos de inspiração, aconselham sobre um tema ou pedem dicas.
 
-**Gerenciamento de vendas para uma padaria**
+Caso o(a) cliente pretende sugestões a sra Fabricia envia algumas fotos do que ela já tenha feito ou fotos inspirativas,na hipótese do(a) cliente apresentar o tema planejado, a Sr. Fabricia  vê se há possibilidades de ser realizada.
 
-O nosso cliente, Sr. Genival, tem uma padaria de bairro chamada padaria Pão Genial e, devido a qualidade de seus produtos, ela está crescendo rapidamente. Recentemente, ele contratou mais funcionários para atendimento, caixa, panificação, etc.
-Assim, atualmente, ele consegue concentrar seus esforços para melhorar a gestão da padaria. Para isso, ele quer instalar um sistema de controle de vendas que permita ao caixa lançar as vendas realizadas. Como sua intenção
-é melhorar a gestão do negócio, é muito importante que ele consiga ter
-relatórios, como por exemplo, de vendas.
+Sr. Fabricia  informa os valores, combinam o horário e local.
+Sra. Fabricia se organiza, prepara propostas sob encomenda e se desloca até o local da festa/evento no dia.
 
-## 2- Empréstimo
+Após o término, o cliente entra em contato novamente e a Dona Fabricia vai até o local de retirada.
 
-**Gerenciamento de uma biblioteca**
 
-Uma ONG, chamada Sala Arco Íris, ajuda crianças de baixa renda em sua educação básica. Atualmente, recebeu uma doação de mais de 1000 livros e está montando a sua biblioteca. Eles querem emprestar os livros para as crianças e os pais das crianças. Apesar de
-terem um computador e as estantes necessárias à disposição nessa nova biblioteca, não possuem verba suficiente para um leitor de impressão digital ou para produção
-de carteirinhas para todas as crianças. Para isso, eles precisam de um sistema que gerencie todo o acervo, empréstimos, livros disponíveis, etc. mas que isso ocorra de maneira simples e sem necessidade de novos gastos. Também é importante que haja relatórios, permitindo o controle dos empréstimos e dos livros disponíveis no acervo.
+● Conclusão: A primeira situação que analisamos é o método de agendamento, em algumas ocasiões ela se perde nos dias e as vezes acaba não tendo um local fixo para anotar, o sistema poderia auxiliar nesta parte.
+A segunda situação é a falta do seu catálogo de tendências, Caso o cliente não tenha um tema planejado,o catálogo facilitaria e ajudaria a ter um projeto prático, o cliente ja teria as decorações que a Sr Fabrícia desempenhou. Resolver e promover este problema é benéfico para ambas as partes, a Sra Fabrícia não precisaria se empenhar tanto e ficar horas procurando inspirações no google e as clientes podem ver seus trabalhos realizados.
+Também consideramos o acesso aos relatórios que Sra. Fabrícia terá acesso, onde mostra suas vendas de temas mais alugados por temporada, por faixa etária de idade, seja; Festa de aniversário, chá de panela, casamento ou outros eventos.
 
-## 3- Ordem de Serviço (O.S.)
 
-**Manutenção de computadores**
+- O software que iremos desenvolver terá uma agenda que mostrará os dias que a Sr Fabricia está disponível.
+- O software terá lembretes que facilitara a Sr. Fabricia a não se esquecer dos seus compromissos.
+- O atendente será responsável por registrar trabalhos e sugestões de decorações, com isso os clientes terão acesso a todas as informações podendo escolher as melhores opções que deseja contratar.
+- O software ajudará os clientes a entrarem em contato com a Sr Fabricia por meio das suas redes sociais, como o whatsapp.
+- O cliente Poderá ver seus trabalhos realizados, entrar em contato, deixar seu comentário e ver as avaliações.
+- A Sr fabricia, poderá anotar seus agendamentos em um formulário com as informações da decoração escolhida pelo cliente e seus dados de contato.
+- O Atendente terá um espaço no sistema aonde ele poderá publicar os trabalhos realizados pela empresa, visualizar e responder comentários de clientes, responder dúvidas e a publicidade dos trabalhos.
+- O Gerente com acesso às áreas de reporting e financeira.
+Sra. Fabricia terá acesso a todos os requisitos como relatórios, agendamentos e o contato com os clientes.
 
-Sr. Sálvio, nosso cliente, fez um curso de manutenção de celulares e smartphones e decidiu abrir um negócio, onde ele é responsável pelos consertos e sua esposa Marília realiza os atendimentos aos clientes. Com sua visão empreendedora, ele sentiu a necessidade de um software que auxilie
-sua esposa nas tarefas diárias. Para isso, ele deseja um sistema que gerencie os clientes, orçamentos, serviços e retirada dos equipamentos. Sendo um negócio pequeno, é muito importante que ele consiga ter relatórios que lhe ajudem na gestão da
-empresa, como dos status dos serviços.
 
-# Situação Problema
+## Regras De Negócios 
 
-**Nessa parte a equipe deve descrever a situação problema que será resolvida pelo sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.**
+- **RN01- Visualizar o Catálogo:** Para visualizar os trabalhos é necessário abrir o catálogo. 
+- RN02- Inserir Pedidos: Para inserir um tema no pedido, é necessário que o produto esteja cadastrado no sistema e que tenha dias disponíveis.
+- RN03- Primeiro Contato: Os Clientes podem entrar em contato por meio das redes sociais da empresa.
+- RN04- Registrar Emprestimo: para realizar o empréstimo o cliente deverá entrar em contato via Whatsapp. 
+- RN05- Registros: O gerente deve possuir acesso aos registros de empréstimos e relatórios.
+- RN06- Orçamento: Após registrar as informações do orçamento, o atendente deverá imprimir e encaminhar o orçamento para aprovação do cliente, e se for confirmado pelo cliente, o atendente deverá solicitar um contrato para execução do serviço.
+- RN07- Abertura dos emprestimos: Com o atendimento aprovado pelo cliente, a atendente deverá inserir os dados do cliente e do orçamento em um novo documento, para registros internos, realizando a abertura dos emprestimos.
+- RN08- Pagamento de Multa: Caso o cliente danifique algum objeto de decoração, deverá pagar multa.
+- RN09- Quebra de Contrato: Caso o cliente quebre o contato, haverá uma muta de 50%.
+- RN10- Feedback: O atendente deverá visualizar os comentários, responder e tirar dúvidas.
+- RN11- Relatórios- O relatório de faturamento será permitido somente para o administrador.
 
-![Ciclo da Venda](docs/ciclo_da_venda.webp "Ciclo da Venda")
+## Requisitos Funcionais
 
-Descrevem o que acontece atualmente na empresa em um contexto global,
-abordando o funcionamento da empresa como um todo, não apenas os “problemas” que lá ocorrem.
+- R.F. 01 - Agendamento: O sistema deve realizar um agendamento com os seguintes dados; Nome do cliente, CPF, Endereço, Data e Horário. 
+Usuários: Somente o atendente.
+- R.F. 02 - Orçamento: O sistema deve solicitar o Orçamento com os seguintes dados; Nome do cliente,Tema,Valor,Endereço, Data e Horário. 
+Usuários: Somente o Atendente
+- R.F. 03 - Pagamento: O sistema deve solicitar Pagamento com os seguintes dados;Nome do cliente,Valor Total,Valor Pago,Troco, Data e Horário do pagamento. 
+Usuários: Somente o Gerente
+- R.F. 04 - Feedback : O sistema deve realizar um comentário ou respostas com os seguintes dados; Nome, Email,Comentário ou Resposta. 
+Usuários: todos os níveis de usuário.
 
-Sabendo disso, seu papel é **detalhar o funcionamento da empresa escolhida na
-atualidade, ou seja, antes de seu novo software**, usando como base a situação que passamos, mas aprofundando os detalhes de como as coisas acontecem.
-
--   Pesquise sobre empresas do ramo escolhido
-    para entender como funcionam;
--   Aproveite seus conhecimentos previamente adquiridos na área da empresa que escolheu, se houver;
--   Simule uma situação real. Lembre-se que são
-    propostas com empresas fictícias, sendo assim,
-    você terá que tomar certas decisões sobre como
-    a empresa funciona em relação às coisas que
-    não estão definidas no documento base (por
-    exemplo, no caso da padaria, dizemos que seu
-    Genival contratou mais funcionários, mas saber
-    quantos e o que fazem pode ser relevante para o software), então tente “visualizar” a
-    empresa funcionando, como se você estivesse lá acompanhando o dia-a-dia;
-
-Seguindo essas dicas, você deve ser capaz de descrever o dia-a-dia da empresa selecionada. E para ajudar na organização do texto, indicamos uma abordagem em 3 etapas:
-
--   **Introdução**: comece com um parágrafo apresentando a empresa (nome, o que faz, tempo de existência, o dono, funcionários,
-    etc);
--   **Situação-problema**: Aborde em detalhes como a empresa funciona, procurando seguir uma
-    ordem lógica dos acontecimentos e organizando parágrafos diferentes para cada coisa
-    diferente que for explicar (como faria em uma redação);
--   **Conclusão**: tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia
-    ajudar a resolvê-los.
-
-# Descrição da proposta
-
-Após entender o problema, proponha uma solução que será útil nos aspectos de dificuldade encontrados. Assim, aqui você deverá **explicar de maneira resumida, e preferencialmente mais textual, como o software funcionará**. Pense nesse texto como uma **introdução ao seu cliente** do que você pretende fazer por ele, para que ele confirme se realmente está dentro do
-desejado e permita sua continuidade.
-
-**Alguns pontos importantes a se destacar são:**
-
--   **Qual o foco de ação do software** relacionado com os problemas levantados na análise da situação-problema. O que realmente o software vai fazer. Por exemplo, o foco de ação do Gmail é permitir o envio e recebimento de e-mails.
--   **Os níveis de usuário do sistema**. Somente o gestor tem acesso? E os funcionários? Talvez seja para ambos, ou para funcionários de cargos
-    diferentes, etc.
--   **O que poderá ser feito no software**.Apenas o principal, sem pensar em
-    telas ou detalhes específicos, pois isso será feito em outro momento.
-    -   **Se houver mais de um nível de usuário**, ressaltar as diferenças entre
-        eles na descrição da proposta.
-
-Tenha em mente que essa é uma etapa relativamente breve. Não é necessário um texto gigantesco, apenas dar uma noção do funcionamento do sistema. Mais adiante
-precisaremos ser bem detalhistas, todavia agora a intenção é apenas fazer algo que permita ao cliente nos dizer se estamos no caminho certo.
