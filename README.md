@@ -69,7 +69,8 @@ Usuários: Somente o Atendente
 Usuários: Somente o Gerente
 - **R.F. 04 - Feedback:** O sistema deve realizar um comentário ou respostas com os seguintes dados: Nome, Email, Comentário ou Resposta. 
 Usuários: todos os níveis de usuário.
-- **R.F. 05 - Relatórios:** O sistema deve realizar um relatorio de faturamento, mostrar as média de faturamento mensal da empresa, com os seguintes dados: Número da ordem de pagamento conforme gerado pela plataforma, Descrição do serviço prestado e Valores.
+- **R.F. 05 - Relatórios:** O sistema deve realizar um relatorio de faturamento,contendo informações como gastos, lucros e mostrar as média de faturamento mensal da empresa, com os seguintes dados: Número da ordem de pagamento conforme gerado pela plataforma, Descrição do serviço prestado, Temas em alta, e Valores.
+Usúarios: Administrador, gerente e proprietária.
   
 ## Requisitos Não-Funcionais
 
