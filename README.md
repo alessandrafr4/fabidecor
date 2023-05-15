@@ -11,7 +11,7 @@ Links do projeto:
 
 Alunas: 
 - [Alessandra Fernandes Pereira](https://github.com/alessandrafr4)
-- [Bruna Da Rosa Miranda](link)
+- [Bruna Da Rosa Miranda](https://github.com/Brunamy)
 
 ## Situação problema
 
@@ -54,7 +54,7 @@ Também consideramos o acesso aos relatórios que Sra. Fabrícia terá acesso, q
 - **RN05- Registros:** O gerente deve possuir acesso aos registros de empréstimos e relatórios.
 - **RN06- Orçamento:** Após registrar as informações do orçamento, o atendente deverá imprimir e encaminhar o orçamento para aprovação do cliente, e se for confirmado pelo cliente, o atendente deverá solicitar um contrato para execução do serviço.
 - **RN07- Abertura dos empréstimos:** Com o atendimento aprovado pelo cliente, a atendente deverá inserir os dados do cliente e do orçamento em um novo documento, para registros internos, realizando a abertura dos emprestimos.
-- **RN08-Regra de adiantamento para fechar contrato** O cliente deverá
+- **RN08-Regra de adiantamento para fechar contrato** O cliente deverá pagar um adiantamento para fechar contrato.
 - **RN08- Pagamento de Multa:** Caso o cliente danifique algum objeto de decoração, deverá pagar multa.
 - **RN09- Quebra de Contrato:** Caso o cliente quebre o contato, haverá uma multa de 50%.
 - **RN10- Feedback:** O atendente deverá visualizar os comentários, responder e tirar dúvidas.
@@ -69,8 +69,8 @@ Usuários: Somente o Atendente
 Usuários: Somente o Gerente
 - **R.F. 04 - Feedback:** O sistema deve realizar um comentário ou respostas com os seguintes dados: Nome, Email, Comentário ou Resposta. 
 Usuários: todos os níveis de usuário.
-- **Relatórios**
-
+- **R.F. 05 - Relatórios:** O sistema deve realizar um relatorio de faturamento, mostrar as média de faturamento mensal da empresa, com os seguintes dados: Número da ordem de pagamento conforme gerado pela plataforma, Descrição do serviço prestado e Valores.
+  
 ## Requisitos Não-Funcionais
 
 - **R.N.F.01 - Interface do usuário:** É recomendável que o sistema possua a escolha entre os modos claro e escuro, para melhorar a visualização.
